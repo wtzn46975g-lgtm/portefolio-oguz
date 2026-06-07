@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oguz Calhan — Portfolio Audiovisuel</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:#f7f7f5;
+    color:#111;
+    line-height:1.6;
+}
+
+.container{
+    width:min(1100px,90%);
+    margin:auto;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero-content{
+    max-width:750px;
+}
+
+.tag{
+    font-size:.9rem;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#777;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:clamp(3rem,8vw,6rem);
+    line-height:0.95;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.25rem;
+    max-width:650px;
+    color:#555;
+    margin-bottom:40px;
+}
+
+.btn{
+    display:inline-block;
+    text-decoration:none;
+    background:#111;
+    color:white;
+    padding:16px 28px;
+    border-radius:999px;
+    transition:.3s;
+}
+
+.btn:hover{
+    opacity:.8;
+}
+
+section{
+    padding:120px 0;
+}
+
+.section-title{
+    font-size:2rem;
+    margin-bottom:60px;
+}
+
+.projects{
+    display:grid;
+    gap:30px;
+}
+
+.project{
+    background:white;
+    padding:40px;
+    border-radius:24px;
+    border:1px solid #e7e7e7;
+}
+
+.project-number{
+    color:#999;
+    margin-bottom:10px;
+}
+
+.project h3{
+    font-size:1.8rem;
+    margin-bottom:15px;
+}
+
+.project p{
+    color:#555;
+    margin-bottom:20px;
+}
+
+.project a{
+    text-decoration:none;
+    color:#111;
+    font-weight:600;
+}
+
+.about{
+    max-width:800px;
+}
+
+.about p{
+    color:#555;
+    font-size:1.1rem;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    border:1px solid #e7e7e7;
+    border-radius:18px;
+    padding:25px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact h2{
+    margin-bottom:25px;
+}
+
+.contact p{
+    margin-bottom:10px;
+}
+
+footer{
+    padding:40px 0;
+    text-align:center;
+    color:#777;
+}
+
+@media(max-width:768px){
+
+    section{
+        padding:80px 0;
+    }
+
+    .project{
+        padding:25px;
+    }
+
+}
+</style>
+</head>
+
+<body>
+
+<header class="hero">
+    <div class="container">
+        <div class="hero-content">
+
+            <div class="tag">
+                Portfolio Audiovisuel
+            </div>
+
+            <h1>
+                Oguz<br>
+                Calhan
+            </h1>
+
+            <p class="subtitle">
+                Recherche d'alternance BTS Audiovisuel.
+                Passionné par l'image, le montage et la création visuelle,
+                je développe mes compétences à travers différents projets
+                vidéo mêlant technique, narration et créativité.
+            </p>
+
+            <a href="#realisations" class="btn">
+                Voir mes réalisations
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<section id="realisations">
+    <div class="container">
+
+        <h2 class="section-title">
+            Réalisations
+        </h2>
+
+        <div class="projects">
+
+            <article class="project">
+                <div class="project-number">01</div>
+                <h3>Titre du projet</h3>
+                <p>
+                    Description du projet.
+                    Contexte, objectif et compétences utilisées.
+                </p>
+                <a href="[LIEN_DRIVE_1]" target="_blank">
+                    Voir la vidéo →
+                </a>
+            </article>
+
+            <article class="project">
+                <div class="project-number">02</div>
+                <h3>Titre du projet</h3>
+                <p>
+                    Description du projet.
+                </p>
+                <a href="[LIEN_DRIVE_2]" target="_blank">
+                    Voir la vidéo →
+                </a>
+            </article>
+
+            <article class="project">
+                <div class="project-number">03</div>
+                <h3>Titre du projet</h3>
+                <p>
+                    Description du projet.
+                </p>
+                <a href="[LIEN_DRIVE_3]" target="_blank">
+                    Voir la vidéo →
+                </a>
+            </article>
+
+            <article class="project">
+                <div class="project-number">04</div>
+                <h3>Titre du projet</h3>
+                <p>
+                    Description du projet.
+                </p>
+                <a href="[LIEN_DRIVE_4]" target="_blank">
+                    Voir la vidéo →
+                </a>
+            </article>
+
+            <article class="project">
+                <div class="project-number">05</div>
+                <h3>Titre du projet</h3>
+                <p>
+                    Description du projet.
+                </p>
+                <a href="[LIEN_DRIVE_5]" target="_blank">
+                    Voir la vidéo →
+                </a>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2 class="section-title">
+            À propos
+        </h2>
+
+        <div class="about">
+            <p>
+                Je m'intéresse à l'audiovisuel sous différentes formes :
+                tournage, montage, narration visuelle et post-production.
+                À travers mes projets personnels, je cherche à développer
+                une approche créative tout en renforçant mes compétences
+                techniques. Aujourd'hui, je souhaite intégrer une entreprise
+                dans le cadre d'une alternance en BTS Audiovisuel afin de
+                progresser au contact de professionnels du secteur.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container">
+
+        <h2 class="section-title">
+            Compétences
+        </h2>
+
+        <div class="skills">
+
+            <div class="skill">Montage vidéo</div>
+            <div class="skill">Tournage</div>
+            <div class="skill">Cadrage</div>
+            <div class="skill">Post-production</div>
+            <div class="skill">Photographie</div>
+            <div class="skill">Storytelling visuel</div>
+
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container contact">
+
+        <h2>
+            Contact
+        </h2>
+
+        <p>
+            Oguz Calhan
+        </p>
+
+        <p>
+            07 60 84 46 96
+        </p>
+
+        <p>
+            calhan.oguz44@gmail.com
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 — Oguz Calhan
+</footer>
+
+</body>
+</html>
